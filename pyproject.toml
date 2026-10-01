@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uncertainty-calibration-toolkit"
+version = "0.1.0"
+description = "Exact calibration of recorded confidence against measured correctness"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+uct = "uncertainty_calibration_toolkit.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["uncertainty_calibration_toolkit*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

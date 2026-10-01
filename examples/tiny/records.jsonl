@@ -1,0 +1,6 @@
+# SYNTHETIC: illustrative planted data, not real-world performance.
+{"id": "tiny-0", "confidence": "0", "correct": false, "synthetic": true, "source": "synthetic_fixture"}
+{"id": "tiny-1", "confidence": "0.25", "correct": false, "synthetic": true, "source": "synthetic_fixture"}
+{"id": "tiny-2", "confidence": "0.5", "correct": true, "synthetic": true, "source": "synthetic_fixture"}
+{"id": "tiny-3", "confidence": "0.75", "correct": true, "synthetic": true, "source": "synthetic_fixture"}
+{"id": "tiny-4", "confidence": "1", "correct": true, "synthetic": true, "source": "synthetic_fixture"}
