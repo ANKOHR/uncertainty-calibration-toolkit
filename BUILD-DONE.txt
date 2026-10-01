@@ -1,0 +1,8 @@
+Build completed locally on 2026-10-01.
+Tests: 38 passed (python -m pytest -q).
+Local implementation commit hash: 48f88278ac216cc2fff5a8fefb26990ffffdbf63
+Installed CLI demo elapsed: 1.072606 seconds for fixtures, run, and Markdown report combined.
+
+Built a CPU-only, local-file Python CLI with fixtures, run, report, bins, and audit commands, pure exact-fraction calibration calculations, labelled 200-record synthetic ground truth, a hand-written five-record example, deterministic provenance reports, atomic report writes, named input errors, and adversarial regression tests. Every planted metric and flag set matches independent expectations with zero false positives. Documentation includes the input schema, honesty boundaries, architecture, build evidence, domain lessons, and a pending two-week real-use verdict and improvement hook. No real-use performance or savings are claimed. Publishing was not performed.
+
+This file is committed in a subsequent evidence-record commit so the implementation hash can be recorded without a self-referential hash.
